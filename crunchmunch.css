@@ -1,0 +1,33 @@
+.head {display: flex; justify-content: space-between; color: darkgoldenrod; font-family:'Gabriela', serif;}
+nav {
+    background: grey;
+    font-size:25px;
+    display: flex;
+    justify-content:space-around;
+    align-items: stretch;
+    color:white;}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #2baadf;
+}    
+    
+ .appatizer h1 {text-align:left;}
+
+.nacho, .taco, .lamonade { display: flex; 
+  justify-content:space-around;
+  align-items:flex-start;}
+
+img { width: 100%; background-repeat: no-repeat;}
+.nacho, .taco, .lemonade {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-content: center; 
+    background-repeat: no-repeat;}
+
+
+.lemonade img {
+    flex: 1;
+    width: 30%;
+}
